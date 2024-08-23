@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(Order\ Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.text-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background:linear-gradient(rgba(204, 204, 204, 0.527),rgba(204, 204, 204, 0.527));
+  border-radius: 50px;
+  border-color: #2c3e50;
+  border-style: none;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="passwordtwo"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sign-up{
+  font-size: large;
+  color:white;
+}
+
+.copy-right{
+  font-size: small;
+  color:black;
+  margin-top: 10%;
+}
+
+@media screen and (width:1400px) {
+   .dot{
+    margin-top: -32px;
+   }
+  
+}
